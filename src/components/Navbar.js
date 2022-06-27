@@ -13,9 +13,9 @@ export default function Navbar(){
         <header>
             <img src={logo} alt="logo" />
             <nav ref={navRef} className="nav-wrap">
-                <a className="nav-link hover:bg-sky-500 p-4 active:bg-violet-700 focus:ring-violet-300" href="#banner" id="portfolio-link">Protfolio</a>
-                <a className="nav-link hover:bg-sky-500 p-4 active:bg-violet-700" href="#about" id="about-link">About</a>
-                <a className="nav-link hover:bg-sky-500 p-4 active:bg-violet-700" href="#services" id="contact-link">Contact</a>
+                <a className="nav-link hover:bg-sky-500 p-4 active:bg-orange-500 focus:ring-violet-300" href="#banner" id="portfolio-link">Protfolio</a>
+                <a className="nav-link hover:bg-sky-500 p-4 active:bg-orange-500" href="#about" id="about-link">About</a>
+                <a className="nav-link hover:bg-sky-500 p-4 active:bg-orange-500" href="#services" id="contact-link">Contact</a>
 
                 <button className="nav-btn nav-close-btn" onClick={showNavbar}>
                     <FaTimes />

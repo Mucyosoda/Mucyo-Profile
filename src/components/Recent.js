@@ -4,11 +4,8 @@ import recent from "../images/Img.png"
 export default function Recent(){
     return (
         <main classNameName=" border border-t-sky-500 mb-12 bg-sky-100">
-            <div className="header_line">
-                <hr className="first_line" />
-            </div>
             <div className="main_title">
-                <h1 className="text-4xl p-8 flex justify-start pl-12 text-sky-500">My Recent Works</h1>
+                <h1 className="text-4xl p-8 flex justify-start pl-12 items-center justify-center font-bold">My Recent Works</h1>
             </div>
 
             <div className="rounded-xl shadow-md overflow-hidden">
@@ -32,7 +29,7 @@ export default function Recent(){
             <li className="bg-orange-400 h-12 w-28 pt-2  text-xl rounded-lg"><a href="#"></a>bootstrap</li>
             <li className="bg-orange-400 h-12 w-16 pt-2  text-xl rounded-lg"><a href="#"></a>Ruby</li>
           </ul>
-          <button type="submit" className="bg-sky-500 text-white border-4 border-sky-500 w-32 h-16 text-xl rounded-lg hover:text-sky-500 hover:bg-white">See Project</button>
+          <a href="https://github.com/Mucyosoda" target="_blank" rel="noreferrer" className="bg-sky-500 text-white border-4 border-sky-500 p-4 text-xl rounded-lg hover:text-sky-500 hover:bg-white">See Project</a>
     </div>
   </div>
 </div>
