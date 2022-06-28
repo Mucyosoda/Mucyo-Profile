@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Recent from './components/Recent';
 import data from './data';
 import Project from './components/Project';
+import SlideCard from './components/SlideCard'
 
 
 function App() {
@@ -22,11 +23,8 @@ function App() {
       <Firstbanner />
       <Banner />
       <Recent />
-      <div className="container mt-12">
-        <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-4 gap-2 overflow-hidden">
-          {projects}
-        </div>
-      </div>
+      <SlideCard />
+
     </div>
   );
 }

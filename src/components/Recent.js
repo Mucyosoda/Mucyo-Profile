@@ -5,7 +5,7 @@ export default function Recent(){
     return (
         <main classNameName=" border border-t-sky-500 mb-12 bg-sky-100">
             <div className="main_title">
-                <h1 className="text-4xl p-8 flex justify-start pl-12 items-center justify-center font-bold">My Recent Works</h1>
+                <h1 className="text-4xl p-8 flex justify-start pl-12 items-center justify-center font-bold">RECENT WORK</h1>
             </div>
 
             <div className="rounded-xl shadow-md overflow-hidden">

@@ -73,46 +73,6 @@ export default function banner(){
                     </div>
                 </div>
             </div>
-            {/* <div className="md:flex border-4 border-sky-500">
-                <div className="about-us-1 p-2 lg:ml-32 lg:pt-8 border-4 border-sky-500">
-                    <div className="uppercase tracking-wide text-sm text-sky-500 font-semibold text-2xl">Hey there, {timeOfDay}</div>
-                        <h1 className="block mt-1 text-lg leading-tight font-medium text-black hover:underline text-4xl">I'm Mucyo Claude</h1>
-                        <p className="mt-2 text-slate-500 lg:text-2xl">I am a Full-stack Software Developer <br />
-                            I can help you build an application, feature, or website.
-                            <br />Look through some of my work experience that I have built-in different technology
-                            <br />like, React, Redux, Ruby, Rails, JavaScript, tailwind CSS and Postgres.
-                            I'm open to a new opportunity.
-                        </p>
-                        <div className="mt-4 flex justify-center">
-                            <ul className="flex flex-row gap-8">
-                                <li>
-                                    <a href="https://github.com/Mucyosoda" target="_blank" rel="noopener noreferrer">
-                                    <img src={ require('../icons/github.png') }  alt="github" className="h-8 hover:h-12" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/ClaudeMucyo1" target="_blank" rel="noopener noreferrer">
-                                        <img src={ require('../icons/twitter.png') }  alt="twitter" className="h-8 hover:h-12" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.linkedin.com/in/mucyoclaude/" target="_blank" rel="noopener noreferrer">
-                                        <img src={ require('../icons/linkedin.png') }  alt="inkedin" className="h-8 hover:h-12" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://angel.co/mucyo-soda" target="_blank" rel="noopener noreferrer">
-                                        <img src={ require('../icons/angelist1.png') } alt="angelist" className="h-8 hover:h-12" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="md:shrink-0 lg:h-3xl bg-blue">
-                    <img className="mb-2 object-cover md:h-full md:w-72 lg:w-96" src={bannerPic} alt="Man looking for a job" />
-                </div>
-                </div>
-                 */}
 
             <div className="bg-orange-500 m-16 mr-16">
                 <div className="wraper-banner flex">
@@ -130,7 +90,7 @@ export default function banner(){
 
                     <div className="about-us-12 pt-2">
                         <h1>
-                         <img className="border-4 border-orange-400 rounded-full object-cover md:h-full md:w-72 lg:w-96 " src={bannerPic} alt="Man looking for a job" />
+                         <img className="border-4 border-orange-400 rounded-full object-cover md:h-full md:w-72 lg:w-96 " src={bannerPic} alt="looking for a job" />
 
                         </h1>
                     </div>
