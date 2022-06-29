@@ -22,3 +22,18 @@
     box-sizing: border-box;
     background-color: #ffff;
 }
+
+.career-banner{
+    width: 100%;
+    height: 92vh;
+    background: linear-gradient(
+        to left,
+        rgb(236, 109, 35),
+        rgba(0,0,0,0.6)
+    ),url(../images/career.jpg);
+    background-size: cover;
+}
+
+.career-banner{
+    font-family: poppins, sans-serif;
+}

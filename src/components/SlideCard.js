@@ -6,12 +6,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import data from '../data';
-import bannerPic from "../images/bannerpic.jpg";
 import "../style/slide-card.css"
 
 export default function SlideCard(){
     return(
-        <div className="pl-8 pr-8">
+        <div className="pl-8 pr-8" id="banner">
             <h1 className="text-4xl p-8 flex justify-start pl-12 items-center justify-center font-bold">LATEST BLOG</h1>
         <Swiper
             modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -23,7 +22,6 @@ export default function SlideCard(){
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
         >
-
             {data.map(user => (
                 <SwiperSlide>
                     <div className="myslide">
@@ -57,9 +55,9 @@ export default function SlideCard(){
                     </div>
                 </SwiperSlide>
             ))}
-
-      ...
+            ...
         </Swiper>
-        </div>
+
+    </div>
   );
 }

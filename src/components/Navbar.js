@@ -12,19 +12,11 @@ export default function Navbar(){
     return(
         <header>
             <img src={logo} alt="logo" />
-            <nav ref={navRef} className="nav-wrap">
-                <a className="nav-link hover:bg-sky-500 p-4 active:bg-orange-500 focus:ring-violet-300" href="#banner" id="portfolio-link">Protfolio</a>
-                <a className="nav-link hover:bg-sky-500 p-4 active:bg-orange-500" href="#about" id="about-link">About</a>
-                <a className="nav-link hover:bg-sky-500 p-4 active:bg-orange-500" href="#services" id="contact-link">Contact</a>
-
-                <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-                    <FaTimes />
-                </button>
+            <nav ref={navRef} className="nav-wrap pt-4 font-bold text-lg">
+                <a className="nav-link hover:bg-orange-500 p-4 " href="#banner" id="portfolio-link">Protfolio</a>
+                <a className="nav-link hover:bg-orange-600 p-4 " href="#about" id="about-link">About</a>
+                <a className="nav-link hover:bg-orange-600 p-4" href="#contact" id="contact-link">Contact</a>
             </nav>
-            <button className="nav-btn" onClick={showNavbar}>
-                <FaBars />
-            </button>
         </header>
-
     )
 }

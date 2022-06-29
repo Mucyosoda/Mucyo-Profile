@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    backgroundImage: {
+      'pack-train': "url('../public/images/car6.jpg')",
+    },
   },
   plugins: [],
 }

@@ -29,7 +29,7 @@ export default function Recent(){
             <li className="bg-orange-400 h-12 w-28 pt-2  text-xl rounded-lg"><a href="#"></a>bootstrap</li>
             <li className="bg-orange-400 h-12 w-16 pt-2  text-xl rounded-lg"><a href="#"></a>Ruby</li>
           </ul>
-          <a href="https://github.com/Mucyosoda" target="_blank" rel="noreferrer" className="bg-sky-500 text-white border-4 border-sky-500 p-4 text-xl rounded-lg hover:text-sky-500 hover:bg-white">See Project</a>
+          <a href="https://github.com/Mucyosoda" target="_blank" rel="noreferrer" className="bg-orange-600 text-white border-4 border-orange-500 p-4 text-xl rounded-lg hover:text-orange-600 hover:bg-white">See Project</a>
     </div>
   </div>
 </div>
