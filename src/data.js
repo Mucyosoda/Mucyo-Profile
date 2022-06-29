@@ -74,7 +74,7 @@ const data=[
             rating: 4.8,
             reviewCount: 2
         },
-        location: "Norway",
+        location: "Kigali",
         openSpots: 3,
     },
     {
