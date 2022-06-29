@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@300;500;600;700&display=swap');
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.myslide{
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.slide-content{
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card{
+    border-radius: 25px;
+    background-color: floralwhite;
+}
+
+.image-content, .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 30px;
+    background-color: #ea580c;
+    border: none;
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: floralwhite;
+}
+
+.card-image{
+    position:relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #ea580c;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.description{
+    font-size: 14px;
+    color: #707070;
+    padding-top: 16px;
+}
+
+.button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #ea580c;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    background: #ab5f36;
+}
+
+.swiper-navBtn{
+    color: hsl(47, 89%, 55%);
+    transition: color 0.3s ease;
+    margin-left: 400px;
+}
+
+.swiper-navBtn:hover{
+    color: #4070f4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+
+.swiper-button-prev{
+    left: 10;
+    color: #ea580c;
+    font-weight: 900;
+    margin: -10px;
+}
+
+.swiper-button-next{
+    left: 10;
+    color: #ea580c;
+    font-weight: 900;
+    margin: -10px;
+}
