@@ -1,10 +1,11 @@
 const data=[
     {
         id: 1,
-        title: "Life Lessons with Katie Zaferes",
-        description: " But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
+        title: "SPACE TRAVELERS",
+        description: " In this project, we built a space travelers application with React and Redux. Here, users can navigate between Rockets, Missions, and Profiles",
         price: 136,
-        coverImg: "car6.jpg",
+        web:"https://epic-hugle-d2e175.netlify.app/",
+        coverImg: "rocket.png",
         stats: {
             rating: 57.0,
             reviewCount: 6
@@ -14,9 +15,10 @@ const data=[
     },
     {
         id: 2,
-        title: "Learn Wedding Photography",
-        description: " join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
+        title: "DIGITAL CALCULATOR",
+        description: " In this project Math Magician built in React to do simple calculation applications like multiplication division subtraction and addition operations.",
         price: 125,
+        web:"https://module3-math-magician.netlify.app/",
         coverImg: "cloud.jpeg",
         stats: {
             rating: 5.0,
@@ -56,7 +58,7 @@ const data=[
         title: "Group Mountain Biking",
         description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
         price: 50,
-        coverImg: "MUCYO.jpg",
+        coverImg: "car6.jpg",
         stats: {
             rating: 1.8,
             reviewCount: 2
