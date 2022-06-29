@@ -46,7 +46,7 @@ export default function SlideCard(){
                                             <p className="description">
                                                 {user.description}
                                             </p>
-                                            <button className="button">View more</button>
+                                            <a href="https://book-style.netlify.app/" rel="noreferrer" target="_target" className="bg-orange-600 h-12 flex items-center justify-center p-4 rounded-lg text-white font-bold hover:bg-orange-400">View more</a>
                                         </div>
                                     </div>
                                 </div>

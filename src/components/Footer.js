@@ -5,10 +5,10 @@ export default function Footer(){
     return (
         <div className="bg-neutral-900" id="contact">
             <div className="flex items-center justify-center footer-polygon h-32 bg-white">
-                <img src={ require('../icons/linkedin.png') }  alt="github" className="h-8 mr-2 hover:h-10" />
-                <img src={ require('../icons/angelist.png') }  alt="github" className="h-8 mr-2 hover:h-10" />
-                <img src={ require('../icons/twitter1.png') }  alt="github" className="h-8 mr-2 hover:h-10" />
-                <img src={ require('../icons/github.png') }  alt="github" className="h-8 mr-2 hover:h-10" />
+                <a href="https://www.linkedin.com/in/mucyoclaude?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B7g9Mb4bXTrirDTh5g6Jqzg%3D%3D" rel="noreferrer" target="_blank"><img src={ require('../icons/linkedin.png') }  alt="github" className="h-8 mr-2 hover:h-10" /></a>
+                <a href="https://angel.co/u/mucyo-soda" rel="noreferrer" target="_blank"> <img src={ require('../icons/angelist.png') }  alt="github" className="h-8 mr-2 hover:h-10" /></a>
+                <a href="https://twitter.com/ClaudeMucyo1" rel="noreferrer" target="_blank"><img src={ require('../icons/twitter1.png') }  alt="github" className="h-8 mr-2 hover:h-10" /></a>
+                <a href="https://github.com/Mucyosoda" rel="noreferrer" target="_blank"><img src={ require('../icons/github.png') }  alt="github" className="h-8 mr-2 hover:h-10" /></a>
             </div>
             <div className="bg-neutral-900 text-white lg:flex ">
                 <div className="lg:w-1/2 lg:flex flex-col flex justify-center items-center lg:flex-row">
