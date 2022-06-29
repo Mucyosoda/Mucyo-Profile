@@ -6,7 +6,7 @@ const data=[
         price: 136,
         coverImg: "car6.jpg",
         stats: {
-            rating: 5.0,
+            rating: 57.0,
             reviewCount: 6
         },
         location: "Online",
@@ -45,7 +45,7 @@ const data=[
         price: 50,
         coverImg: "career.jpg",
         stats: {
-            rating: 4.8,
+            rating: 8,
             reviewCount: 2
         },
         location: "Norway",
@@ -58,7 +58,7 @@ const data=[
         price: 50,
         coverImg: "MUCYO.jpg",
         stats: {
-            rating: 4.8,
+            rating: 1.8,
             reviewCount: 2
         },
         location: "Norway",
@@ -84,7 +84,7 @@ const data=[
         price: 50,
         coverImg: "MUCYO.jpg",
         stats: {
-            rating: 4.8,
+            rating: 5.8,
             reviewCount: 2
         },
         location: "Norway",
